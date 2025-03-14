@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Front End Domen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        wix: ["Wix Madefor text", "sans-serif"],
+                        wixdisplay: ["Wix Madefor Display", "sans-serif"],
+                        lexend: ["Lexend", "sans-serif"],
+                        sloth: ["Sloth-Regular", "sans-serif"]
+                    },
+                    colors: {
+                        clifford: "#da373d",
+                        darkblue: "#16161D",
+                        gradthemeone: "#FF9532",
+                        gradthemetwo: "#FE5A69",
+                        gradthemethree: "#EF4FB5",
+                        borderpink: "#F91567",
+                        searchbargray: "#F5F5F4",
+                        iconpink: "#FF707A",
+                        iconyellow: "#FF9432",
+                        iconrose: "#F657BC",
+                        cardgradlightblue: "#C4FFDF",
+                        cardgradpurple: "#FF62E6",
+                        cardgradrose: "#F8CFFF",
+                        cardgradpink: "#FFB292",
+                        cardgradfive: "#FFA18C",
+                        cardgradsix: "#FCFF7E",
+                        footergray: "#F5F5F5",
+                        mobilefootergray: "#FAFAF9"
+
+                    },
+                    screens: {
+                        xs: "585px",
+                        nw: "520px",
+                        oft: "1400px",
+                        pr: "1360px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="flex flex-col justify-evenly">
+    <div class="flex flex-row items-center justify-between w-[100%] max-w-[1508px] w-full h-[100px] md:h-[145px] mx-auto p-4 md:px-6" id="menu-desktop">
+        <img class="h-[80px] w-[80px] md:h-[99px] md:w-[99px]" src="./prvi projekat/domen-me-logo.png" alt="nema slike jbg">
+
+        <div class="hidden md:flex flex-row gap-6 font-wix text-darkblue font-medium">
+            <div class="text-[16px] md:text-[18px]">About .ME</div>
+            <div class="text-center flex items-center gap-1"><span class="text-[16px] md:text-[18px]">For individuals</span><i class="fa-solid fa-chevron-right text-xs rotate-90 text-xs"></i></div>
+            <div class="text-center flex items-center gap-1"><span class="text-[18px]">For businesses</span><i class="fa-solid fa-chevron-right rotate-90 text-xs"></i></div>
+            <div class="text-[16px] md:text-[18px]">Registrars</div>
+            <div class="text-[16px] md:text-[18px]">Blog</div>
+            <div class="text-[16px] md:text-[18px]">Contact .ME</div>
+        </div>
+
+        <button class="md:hidden text-darkblue">
+            <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+    </div> 
+  <div class="flex flex-col justify-between max-w-[1508px] w-[100%] mx-auto" id="block-section"> 
+
+    <div class="flex flex-row flex-wrap md:flex-nowrap overflow-hidden justify-evenly md:justify-between lg:justify-between w-full h-[870px] md:min-h-[660px]" id="make-a-mark-section">
+        
+        <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[25%]  rounded-br-[30px] ml-[-7%] order-1" id="boy-photo">
+            <img class="absolute w-full h-full xs:w-auto xs:h-auto md:w-full md:h-full lg:max-w-[600px] lg:max-h-[517px] oft:w-auto oft:h-auto object-cover z-10 md:ml-[20%] md:mt-[97px] mt-[40%] rounded-br-[30px]" src="prvi projekat/slika-cure.png" alt="slika momka">
+            <div class="absolute bg-[url('./prvi%20projekat/gradient-2.jpeg')] w-full h-[90%] bg-cover bg-center z-0 rounded-br-[30px] rounded-tr-[30px] md:mt-[127px] mt-[50%]">
+            </div>
+        </div>
+
+        <div class="flex flex-col w-[90%] min-h-[50%] sm:min-h-[30%] md:min-h-[50%] md:w-[33%] lg:w-[50%] lg:h-[50%] mx-auto my-auto order-3 md:order-2 lg:order-2 justify-center ">
+        <div class="flex flex-col max-w-[622px] w-full mx-auto z-10">
+            <h1 class=" md:mx-auto font-wixdisplay text-darkblue font-extrabold text-[46px] leading-[103%] md:text-[74px] md:leading-[77px] md:text-center letter-spacing:-0.1em"><span>Make a </span><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">mark.</span></h1>
+            <p class="max-w-[488px] w-full min-h-[40px] md:min-h-[53px] mb-[2%] md:text-center font-lexend font-normal text-[16px] leading-[22px] md:text-[18px] md:leading-[26px] md:mx-auto">You are one step away from finding the perfect domain <br> for your brand.</p>
+        </div>
+        <div class="flex flex-col max-w-[712px] w-full h-[103px] md:h-[103px] bg-searchbargray mx-auto rounded-t-[16px] rounded-b-[8px] z-10" id="search-section">
+            <div class="flex flex-row w-full h-[50%] rounded-b-[8px] rounded-t-[8px]"><div class="flex flex-row w-[75%] bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree pl-[1px] pb-[1px] pt-[1px] rounded-bl-[8px] rounded-tl-[8px]"><input class="w-[85%] rounded-tl-[8px] rounded-bl-[8px]" type="text" name="mesearch" id="mesearch"><div class="flex w-[15%] h-[100%] text-center items-center justify-center font-sloth text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px] bg-searchbargray">.ME</div></div> <button class="flex w-[25%] rounded-tr-[8px] rounded-br-[8px] bg-borderpink text-white items-center justify-center font-bold text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px]">Search</button></div>
+            <div class="flex flex-row w-full h-[50%] font-lexend font-regular text-[14px] leading-[16px] gap-[15px] my-auto ml-[15px]"><p class="flex gap-[4px] items-center"><i class="fa-solid fa-magnifying-glass w-[18px] h-[18px]"></i>AI Search</p><p class="flex flex-row gap-[4px] items-center"><img class="w-[18px] h-[18px]" src="prvi projekat/ikonica-kutije.png" alt="">Bulk Search</p></div>
+        </div> 
+        </div>
+
+        <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[25%]  rounded-bl-[30px] mr-[-7%] order-2 lg:order-3" id="boy-photo">
+            <img class="absolute w-full h-full md:ml-[-7%] object-cover z-10 rounded-bl-[30px] scale-x-[-1] mt-[20px]" src="prvi projekat/slika-momka.png" alt="slika momka">
+            <div class="absolute w-full h-[60%] bg-[url('./prvi%20projekat/gradient-1.jpeg')] bg-cover bg-center z-0 rounded-bl-[30px] rounded-tl-[30px] md:h-full md:mt-[127px] mt-[50%] overflow-hidden">
+            
+            </div>
+        </div>
+        </div>
+     
+        <div class="flex flex-col w-[90%] h-[844px] mx-auto items-center justify-center" id="me-is-for-block"> 
+            <div class="flex flex-row w-full justify-start"><h2 class="w-full h-[68px] font-wixdisplay font-extrabold text-[62px] leading-[68px] letter-spacing:-1em "><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">.ME </span><span>is for...</span></h2></div>
+            <div class="flex flex-col justify-between w-full h-[589.02px] mx-auto swiper mySwiper" id="rows-wrap">
+            <div class="flex flex-row justify-between w-full h-[589px] gap-[46.56px] swiper-wrapper" id="first-row">
+                <div class="flex flex-col justify-between swiper-slide w-auto">
+                <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[17px] ml-[17px]">Startups</h6> <i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i> <img class="max-w-[400px] max-h-[400px] w-auto h-auto object-cover ml-[-5px] mt-[20px]" src="./prvi projekat/slika-1.png" alt=""></div>
+                <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[18px] ml-[17px]">Designers</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[400px] max-h-[400px] w-auto h-auto object-cover ml-[30px] mt-[-18px] rotate-[11.35deg]" src="./prvi projekat/slika-5.png" alt=""></div>
+                </div>
+                <div class="flex flex-col justify-between swiper-slide w-auto">
+                <div class=" w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[17px] ml-[17px]">Corporations</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[500px] max-h-[500px] w-auto h-auto object-cover ml-[-39px] mt-[20px] rotate-[4deg]" src="./prvi projekat/slika-2.png" alt=""></div>
+                <div class=" w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[14px] ml-[12px]">Performing <br> artists</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[400px] max-h-[400px] w-auto h-auto object-cover ml-[43px] mt-[-5px] rotate-[4.43deg]" src="./prvi projekat/slika-6.png" alt=""></div>
+                </div>
+                <div class="flex flex-col justify-between swiper-slide w-auto">
+                <div class=" w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[17px] ml-[17px] text-center">Creative<br>Agencies</h6> <i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[380px] max-h-[380px] w-auto h-auto object-cover ml-[17px] mt-[10px]" src="./prvi projekat/slika-3.png" alt=""></div>
+                <div class=" w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[18px] ml-[17px]">Software <br> devs</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[500px] max-h-[500px] w-auto h-auto object-cover ml-[-43px] mt-[-20px]" src="./prvi projekat/slika-7.png" alt=""></div>
+                </div>
+                <div class="flex flex-col justify-between swiper-slide w-auto">
+                <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[17px] ml-[17px]">Students</h6> <i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i> <img class="max-w-[570px] max-h-[570px] w-auto h-auto object-cover ml-[-60px] mt-[-5px]" src="./prvi projekat/slika-4.png" alt=""></div>
+                <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[18px] ml-[17px]">Photographers</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[450px] max-h-[450px] w-auto h-auto object-cover ml-[-20px] mt-[20px] rotate-[0.53deg]" src="./prvi projekat/slika-8.png" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        </div>
+        
+        <div class="flex flex-col justify-center w-full min-h-[800px] md:min-h-[759px] mt-[5%]">
+            <div class="w-[90%] mx-auto"><h2 class="w-full h-auto mx-auto font-wixdisplay font-extrabold text-[36px] leading-[39px] md:text-[62px] md:leading-[68px] letter-spacing:-1em">Why should I get a <span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">.ME?</span></h2></div>
+        <div class="flex flex-row flex-wrap justify-between items-center md:justify-between w-[90%] mx-auto mt-[3%] text-darkblue">
+            
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[14px] py-2"><i class="fa-solid fa-earth-americas text-[38px] md:text-[50px] text-iconpink"></i><h4 class="font-wixdisplay font-extrabold  text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">Globally accepted</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">A .ME domain is recognized and trusted worldwide, ensuring your brand reaches people no matter where they are located, giving you global reach.</p></div>
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[14px] py-2"><i class="fa-solid fa-bolt-lightning text-[38px] md:text-[50px] text-iconyellow"></i><h4 class="font-wixdisplay font-extrabold text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">Memorable</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">A .ME domain is short, catchy, and easy to remember, giving your brand a strong digital identity that makes it unforgettable to your visitors.</p></div>
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[7px] py-2"><i class="fa-solid fa-user-tie text-[38px] md:text-[50px] text-iconrose"></i><h4 class="font-wixdisplay font-extrabold text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">Personel</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">With personal meaning in many languages, a .ME domain helps you build a unique, global brand that connects with your audience.</p></div>
+
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[14px] py-2"><i class="fa-solid fa-lock text-[38px] md:text-[50px] text-iconrose"></i><h4 class="font-wixdisplay font-extrabold text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">Secure</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">Enhanced security with DNSSEC protection ensures your .ME domain stays safe from potential online threats, making it a trusted and secure choice.</p></div>
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[14px] py-2"><i class="fa-solid fa-magnifying-glass text-[38px] md:text-[50px] text-iconpink"></i><h4 class="font-wixdisplay font-extrabold text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">SEO friendly</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">A .ME domain ranks on par with .com and .org, providing the same SEO benefits that will help your site rank higher and attract more visitors.</p></div>
+            <div class="flex flex-col w-[45%] md:w-[30%] h-[45%] gap-[14px] py-2"><i class="fa-solid fa-shield-halved text-[38px] md:text-[50px] text-iconyellow"></i><h4 class="font-wixdisplay font-extrabold text-[24px] leading-[26px] md:text-[32px] md:leading-[38px] [letter-spacing:-1px]">Reliable</h4><p class="font-lexend font-normal text-[12px] md:text-[18px] leading-[18px] md:leading-[26px]">Daily monitoring and advanced protection features ensure that your website stays safe and that your online reputation remains intact with a .ME domain.</p></div>
+        
+        </div>
+    </div>
+       
+        <div class="flex flex-col md:flex-row w-[90%] h-[336px] md:h-[383px] md:justify-between justify-center md:items-center mx-auto">
+            <div class="w-full md:w-[40%] min-h-[30%] mx-auto ">
+                <h1 class="font-wixdisplay text-darkblue font-extrabold text-[36px] leading-[39px] md:text-[62px] md:leading-[68px] letter-spacing:-0.1em"><span>Make a </span><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">mark</span></h1>
+                <p class="font-lexend font-normal text-[18px] leading-[26px]">You are one step away from finding the perfect domain for your brand.</p>
+            </div>
+            <div class="flex flex-col w-full md:w-[50%] h-[25%] bg-searchbargray mx-auto rounded-t-[16px] rounded-b-[8px]" id="search-section">
+                <div class="flex flex-row w-full h-[50%] rounded-b-[8px] rounded-t-[8px]"><div class="flex flex-row w-[80%] bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree pl-[1px] pb-[1px] pt-[1px] rounded-bl-[8px] rounded-tl-[8px]"><input class="w-[85%] rounded-tl-[8px] rounded-bl-[8px]" type="text" name="mesearch" id="mesearch"><div class="flex w-[15%] h-[100%] text-center mx-auto font-sloth text-[14px] leading=[100%] md:text-[20px] bg-searchbargray items-center justify-center">.ME</div></div> <button class="w-[20%] rounded-tr-[8px] rounded-br-[8px] bg-borderpink text-white font-bold text-[16px] md:text-[20px]">Search</button></div>
+                <div class="flex flex-row w-full font-lexend font-regular text-[14px] leading-[16px] gap-[15px] my-auto ml-[15px]"><p class="gap-[4px]"><i class="fa-solid fa-magnifying-glass w-[18px] h-[18px]"></i>AI Search</p><p class="flex flex-row gap-[4px]"><img class="w-[18px] h-[18px]" src="prvi projekat/ikonica-kutije.png" alt="">Bulk Search</p></div>
+            </div>
+        </div>
+    <!-- sad ovdje ugradjujem swiper-------------------------------------------------------------------------------->
+        <div class="flex flex-col w-full h-[782px] text-darkblue gap-[10px] lg:gap-[22px] swiper SwiperTwo">
+            <div class="flex w-[90%] justify-start mx-auto"><h2 class="w-[484px] h-[68px] font-wixdisplay font-extrabold text-[62px] leading-[68px] letter-spacing:-1em"><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">Success </span><span>stories</span></h2></div>
+            <div class="flex flex-row justify-between items-center w-[90%] mx-auto swiper-wrapper">
+            <div class="swiper-slide flex flex-col w-[400px] h-[454px] overflow-hidden"><img class="max-w-[400px] max-h-[212px] rounded-tl-[20px] w-auto h-auto object-cover rounded-tr-[20px]" src="./prvi projekat/programer.png" alt=""><div class=" w-full h-[242px] bg-gradient-to-tr from-cardgradlightblue to-cardgradpurple rounded-bl-[20px] rounded-br-[20px] py-[13px] px-[16px] gap-6px"><div class="absolute w-[369px] h-[220px]"><p class="font-wix font-medium text-[18px] leading-[34px]">Join.me</p><h5 class="font-wix font-bold text-[28px] leading-[32px]">From Small Suburbs in Singapore to Scooter Startup Superstardom.</h5><div class="w-full h-[78px] font-wix font-regular text-[22px] leading-[78px]">Explore<span class="font-sans font-regular text-[22px] leading-[78px]">🡒</span> </div></div></div></div>
+            <div class="swiper-slide flex flex-col w-[400px] h-[454px] overflow-hidden"><img class="max-w-[400px] max-h-[212px] rounded-tl-[20px] w-auto h-auto object-cover rounded-tr-[20px]" src="./prvi projekat/kofer.png" alt=""><div class=" w-full h-[242px] bg-gradient-to-br from-cardgradrose to-cardgradpink rounded-bl-[20px] rounded-br-[20px] py-[13px] px-[16px] gap-6px"><div class="absolute w-[369px] h-[220px]"><p class="font-wix font-medium text-[18px] leading-[34px]">Ele.me</p><h5 class="font-wix font-bold text-[28px] leading-[32px]">From Hungry Students to a $9.5 Billion Acquisition by Alibaba</h5><div class="w-full h-[78px] font-wix font-regular text-[22px] leading-[78px]">Explore<span class="font-sans font-regular text-[22px] leading-[78px]">🡒</span> </div></div></div></div>
+            <div class="swiper-slide flex flex-col w-[400px] h-[454px] overflow-hidden"><img class="max-w-[400px] max-h-[212px] rounded-tl-[20px] w-auto h-auto object-cover rounded-tr-[20px]" src="./prvi projekat/trotineti.png" alt=""><div class=" w-full h-[242px] bg-gradient-to-tr from-cardgradfive to-cardgradsix rounded-bl-[20px] rounded-br-[20px] py-[13px] px-[16px] gap-6px"><div class="absolute w-[369px] h-[220px]"><p class="font-wix font-medium text-[18px] leading-[34px]">Line.me</p><h5 class="font-wix font-bold text-[28px] leading-[32px]">Transforming Crisis into Communication Innovation Across Asia</h5><div class="w-full h-[78px] font-wix font-regular text-[22px] leading-[78px]">Explore<span class="font-sans font-regular text-[22px] leading-[78px]">🡒</span> </div></div></div></div>
+            </div>
+            <div class="flex justify-start minh-h-[30px] pr:justify-end w-[90%] mx-auto mt-[1%] mb-[20%]">
+            <p class="font-lexend font-light text-[16px] leading-[22px] text-borderpink underline decoration-borderpink">Read more success stories</p>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-evenly max-w-[1508px] min-h-[700px] md:min-h-[624px] bg-mobilefootergray md:bg-footergray mx-auto mt-[450px] lg:mt-[140px] " id="footer-desktop">
+        <div class="flex flex-row flex-wrap lg:justify-between w-[90%] h-[600px] md:h-[816px] lg:h-[308px] text-darkblue mt-[-450px] lg:mt-[-140px] mx-auto shadow-[0px_5px_9px_rgba(0,0,0,0.2)] lg:shadow-[0px_0px_0px_rgba(0,0,0,0)] rounded-[30px] p-6 bg-white lg:bg-transparent" id="overlap-div">
+
+            <div class="flex flex-col w-[50%] lg:w-[23%] h-[50%] lg:min-h-[309.03px] rounded-tl-[17.48px] lg:rounded-[17.48px] px-[10.11px] py-[7.48px] nw:py-[0px] bg-white gap-[12.02px]">
+                <div class="flex w-[100%] md:w-[93%] h-[60%] bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[20.13px] mx-auto text-center font-wixdisplay font-semibold text-[15.39px] leading-[17.32px] md:text-[25.39px] md:leading-[27.32px]">
+                    <div class="w-full mx-auto my-auto">.ME is <p class="font-extrabold text-center"> personal</p></div></div>
+                <div class="flex flex-col w-[93%] h-[40%] gap-[16.39px] mx-auto justify-evenly">
+                    <p class="w-full font-lexend font-normal text-[9px] leading-[100%] md:text-[14px] md:leading-[17.5px] mx-auto">Build a brand that’s as unique and personal as you are with .ME.</p>
+                    <div class="flex w-[60%] h-[37px] lg:h-[47.3px] rounded-[8.05px] border-[1.01px] border-black text-center items-center justify-center md:p-[8.05px] md:gap-8.05px font-wix font-semibold text-[14px] md:text-[16.1px] leading-[100%]">Read more</div>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-[50%] lg:w-[23%] h-[50%] lg:min-h-[309.03px] rounded-tr-[17.48px] lg:rounded-[17.48px] px-[10.11px] py-[7.48px] nw:py-[0px] bg-white gap-[12.02px]">
+                <div class="flex w-[100%] md:w-[93%] h-[60%] bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[20.13px] mx-auto text-center font-wixdisplay font-semibold text-[15.39px] leading-[17.32px] md:text-[25.39px] md:leading-[27.32px]">
+                    <div class="w-full mx-auto my-auto">.ME is ideal for<p class="font-extrabold text-center"> call to action</p></div></div>
+                <div class="flex flex-col w-[93%] h-[40%] gap-[16.39px] mx-auto justify-evenly">
+                    <p class="w-fill font-lexend font-normal text-[9px] leading-[100%] md:text-[14px] md:leading-[17.5px] mx-auto">A .ME domain drives action, making it perfect for any CTA campaign.</p>
+                    <div class="flex w-[60%] h-[37px] lg:h-[47.3px] rounded-[8.05px] border-[1.01px] border-black text-center items-center justify-center md:p-[8.05px] md:gap-8.05px font-wix font-semibold text-[14px] md:text-[16.1px] leading-[100%]">Read more</div>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-[50%] lg:w-[23%] h-[50%] lg:h-[309.03px] rounded-bl-[17.48px] lg:rounded-[17.48px] px-[10.11px] py-[7.48px] nw:py-[0px] bg-white gap-[12.02px]">
+                <div class="flex w-[100%] md:w-[93%] h-[60%] bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[20.13px] mx-auto text-center font-wixdisplay font-semibold text-[15.39px] leading-[17.32px] md:text-[25.39px] md:leading-[27.32px]">
+                    <div class="w-full mx-auto my-auto">.ME is a trusted<p class="font-extrabold text-center"> domain name</p></div></div>
+                <div class="flex flex-col w-[93%] h-[40%] gap-[16.39px] mx-auto justify-evenly">
+                    <p class="w-full font-lexend font-normal text-[9px] leading-[100%] md:text-[14px] md:leading-[17.5px] mx-auto">Globally trusted, .ME domains are safe, secure, and reliable.</p>
+                    <div class="flex w-[60%] h-[37px] lg:h-[47.3px] rounded-[8.05px] border-[1.01px] border-black text-center items-center justify-center md:p-[8.05px] md:gap-8.05px font-wix font-semibold text-[14px] md:text-[16.1px] leading-[100%]">Read more</div>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-[50%] lg:w-[23%] h-[50%] lg:h-[309.03px] rounded-br-[17.48px] lg:rounded-[17.48px] px-[10.11px] py-[7.48px] nw:py-[0px] bg-white gap-[12.02px]">
+                <div class="flex w-[100%] md:w-[93%] h-[60%] bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[20.13px] mx-auto text-center font-wixdisplay font-semibold text-[15.39px] leading-[17.32px] md:text-[25.39px] md:leading-[27.32px]">
+                    <div class="w-full mx-auto my-auto">.ME is good<p class="font-extrabold text-center"> for your SEO</p></div></div>
+                <div class="flex flex-col w-[93%] h-[40%] gap-[16.39px] mx-auto justify-evenly">
+                    <p class="w-full font-lexend font-normal text-[9px] leading-[100%] md:text-[14px] md:leading-[17.5px] mx-auto">Build a brand that’s as unique and personal as you are with .ME.</p>
+                    <div class="flex w-[60%] h-[37px] lg:h-[47.3px] rounded-[8.05px] border-[1.01px] border-black text-center items-center justify-center md:p-[8.05px] md:gap-8.05px font-wix font-semibold text-[14px] md:text-[16.1px] leading-[100%]">Read more</div>
+                </div>
+            </div>
+        </div>
+        <!-- prepravi ovo--------------------------------------------------------------------->
+        <div class="flex flex-col gap-[20px] lg:flex-row w-[85%] h-[50%] lg:h-[70%] mx-auto lg:justify-between">
+        
+        <div class="flex flex-col md:w-[70%] lg:w-[40%] h-auto gap-[14px]">
+            <div class="w-full mt-[7%]"><img class="h-[87px] w-[87px]" src="./prvi projekat/domen-me-logo.png" alt="nema slike jbg"></div>
+            <p class="w-full minh-h-[63px] font-wix font-normal text-[16px] leading-[22px]">Subscribe to our newsletter and receive monthly updates with promo codes, tips on personal branding and much more.</p>
+            <div class="flex flex-row flex-wrap w-full h-auto gap-[17px]">
+                <input class="w-full sm:w-[60%] h-[47px] rounded-[8px] border py-[8px] pl-[16px] pr-[8px]" placeholder="Your email" type="text">
+                <button class="w-full sm:w-[35%] rounded-[8px] p-[8px] gap-[8px] bg-borderpink text-white font-wix font-bold text-[20px]">Subscribe</button>
+            </div>
+
+        </div>
+        <div class="hidden md:block md:flex md:flex-row md:w-[70%] lg:w-[42%] h-auto gap-[76px] font-wix font-normal text-[14px] leading-[18px] md:text-[16px] md:leading-[22px] text-darkblue md:mt-[7%]">
+            <div class="flex flex-col w-[25%] min-h-[196px] md:gap-[16px]">
+                <p>About.ME</p>
+                <p>Registrars</p>
+                <p>Premium domains</p>
+                <p>AI Search</p>
+                <p>Bulk Search</p>
+            </div>
+            <div class="flex flex-col w-[25%] min-h-[196px] md:gap-[16px]">
+                <p>How to register a .ME domain me</p>
+                <p>WHOIS release</p>
+                <p>Report abuse</p>
+            </div>
+            <div class="flex flex-col w-[25%] h-[136px] md:gap-[16px]">
+                <p>Contact.ME</p>
+                <p>Blog</p>
+                <p>CSR</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+        <div class="block md:hidden flex flex-row gap-[30%] min-h-[300px] text-[14px] leading-[18px] md:text-[16px] md:leading-[22px]"> 
+            <div class="flex flex-col w-[25%] h-[196px] gap-[16px]">
+                <p>About.ME</p>
+                <p>Registrars</p>
+                <p>Premium domains</p>
+                <p>Contact.ME</p>
+                <p>AI Search</p>
+                <p>Bulk Search</p>
+            </div>
+            <div class="flex flex-col w-[25%] h-[196px] gap-[16px]">
+                <p>How to register a .ME domain me</p>
+                <p>WHOIS release</p>
+                <p>Report abuse</p>
+                <p>Blog</p>
+                <p>CSR</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+        
+        </div>
+        
+    </div>
+    <div class="flex items-center w-[100%] max-w-[1508px] bg-footergray h-auto md:min-h-[100px] mx-auto">
+    <div class="flex flex-row flex-wrap justify-between w-[85%] mx-auto py-4 gap-12 md:gap-0">
+        <div class="flex w-full md:w-[22%] md:h-[30px] justify-center items-center font-wix font-normal text-[16px] leading-[18px] text-darkblue order-3 md:order-1">
+            Copyright © Domain.me, 2008-2024
+        </div>
+        <div class="flex flex-row items-center w-full justify-center md:w-[35%] md:h-[30px] gap-[5%] font-wix font-normal text-[16px] leading-[18px] text-darkblue order-1 md:order-2">
+            <div>Policies</div>
+            <div>Terms & Conditions</div>
+            <div>Privacy Policy</div>
+        </div>
+        <div class="flex flex-row justify-between w-full md:w-[35%] md:h-[30px] items-center gap-[5%] order-2 md:order-3">
+                <i class="fab fa-facebook-f text-[22.57px]"></i>
+            
+                <i class="fab fa-instagram text-[22.57px]"></i>
+            
+                <i class="fab fa-linkedin-in text-[22.57px]"></i>
+
+                <i class="fab fa-tiktok text-[22.57px]"></i>
+
+                <i class="fab fa-youtube text-[22.57px]"></i>
+
+                <i class="fab fa-x-twitter text-[22.57px]"></i>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",     // Broj slajdova koji se prikazuju odjednom
+            spaceBetween: 0,     // Razmak između slajdova
+            loop: true,           // Omogućava beskonačno listanje
+            navigation: {         // Omogućava strelice za navigaciju
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {         // Omogućava paginaciju (tačkice)
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        });
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var swiper = new Swiper(".SwiperTwo", {
+            slidesPerView: "auto",     // Broj slajdova koji se prikazuju odjednom
+            spaceBetween: 10,     // Razmak između slajdova
+            loop: true,           // Omogućava beskonačno listanje
+            navigation: {         // Omogućava strelice za navigaciju
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {         // Omogućava paginaciju (tačkice)
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        });
+      </script>
+</body>
+</html>
