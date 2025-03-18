@@ -22,7 +22,7 @@
                     },
                     colors: {
                         clifford: "#da373d",
-                        darkblue: "#16161D",
+                        darkblue: "#16161d",
                         gradthemeone: "#FF9532",
                         gradthemetwo: "#FE5A69",
                         gradthemethree: "#EF4FB5",
@@ -44,8 +44,9 @@
                     screens: {
                         xs: "585px",
                         nw: "520px",
-                        oft: "1400px",
-                        pr: "1360px"
+                        oft: "1195px",
+                        pr: "1360px",
+                        hdr: "1000px"
                     },
                 },
             },
@@ -53,28 +54,29 @@
     </script>
 </head>
 <body class="flex flex-col justify-evenly">
-    <div class="flex flex-row items-center justify-between w-[100%] max-w-[1508px] w-full h-[100px] md:h-[145px] mx-auto p-4 md:px-6" id="menu-desktop">
-        <img class="h-[80px] w-[80px] md:h-[99px] md:w-[99px]" src="./prvi projekat/domen-me-logo.png" alt="nema slike jbg">
+    <div class="flex flex-row items-center justify-between max-w-[1536px] w-[100%] h-[100px] md:h-[145px] mx-auto" id="menu-desktop">
+        <img class="h-[80px] w-[80px] md:h-[99px] md:w-[99px] ml-[5%] lg:ml-[96px]" src="./prvi projekat/domen-me-logo.png" alt="nema slike jbg">
 
-        <div class="hidden md:flex flex-row gap-6 font-wix text-darkblue font-medium">
-            <div class="text-[16px] md:text-[18px]">About .ME</div>
-            <div class="text-center flex items-center gap-1"><span class="text-[16px] md:text-[18px]">For individuals</span><i class="fa-solid fa-chevron-right text-xs rotate-90 text-xs"></i></div>
+        <div class="hidden hdr:flex flex-row gap-6 font-wix text-darkblue font-medium p-4 md:px-6">
+            <div class="text-[18px]">About .ME</div>
+            <div class="text-center flex items-center gap-1"><span class="text-[18px]">For individuals</span><i class="fa-solid fa-chevron-right text-xs rotate-90 text-xs"></i></div>
             <div class="text-center flex items-center gap-1"><span class="text-[18px]">For businesses</span><i class="fa-solid fa-chevron-right rotate-90 text-xs"></i></div>
-            <div class="text-[16px] md:text-[18px]">Registrars</div>
-            <div class="text-[16px] md:text-[18px]">Blog</div>
-            <div class="text-[16px] md:text-[18px]">Contact .ME</div>
+            <div class="text-[18px]">Registrars</div>
+            <div class="text-[18px]">Blog</div>
+            <div class="text-[18px]">Contact .ME</div>
         </div>
 
-        <button class="md:hidden text-darkblue">
+        <button class="hdr:hidden text-darkblue p-4">
             <i class="fa-solid fa-bars text-2xl"></i>
         </button>
     </div> 
-  <div class="flex flex-col justify-between max-w-[1508px] w-[100%] mx-auto" id="block-section"> 
+  <div class="flex flex-col justify-between max-w-[1536px] w-[100%] mx-auto" id="block-section"> 
 
     <div class="flex flex-row flex-wrap md:flex-nowrap overflow-hidden justify-evenly md:justify-between lg:justify-between w-full h-[870px] md:min-h-[660px]" id="make-a-mark-section">
-        
-        <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[25%]  rounded-br-[30px] ml-[-7%] order-1" id="boy-photo">
-            <img class="absolute w-full h-full xs:w-auto xs:h-auto md:w-full md:h-full lg:max-w-[600px] lg:max-h-[517px] oft:w-auto oft:h-auto object-cover z-10 md:ml-[20%] md:mt-[97px] mt-[40%] rounded-br-[30px]" src="prvi projekat/slika-cure.png" alt="slika momka">
+        <!-- ovdje cu kopirati originalni kod da probam da odradim neke promjene 
+
+           <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[25%]  rounded-br-[30px] ml-[-7%] order-1" id="girl-photo">
+            <img class="absolute w-full h-full xs:w-auto xs:h-auto md:w-full md:h-full lg:max-w-[600px] lg:max-h-[517px] oft:w-auto oft:h-auto object-cover z-10 md:ml-[20%] md:mt-[97px] mt-[40%] rounded-br-[30px]" src="prvi projekat/slika-cure.png" alt="slika cure">
             <div class="absolute bg-[url('./prvi%20projekat/gradient-2.jpeg')] w-full h-[90%] bg-cover bg-center z-0 rounded-br-[30px] rounded-tr-[30px] md:mt-[127px] mt-[50%]">
             </div>
         </div>
@@ -82,9 +84,9 @@
         <div class="flex flex-col w-[90%] min-h-[50%] sm:min-h-[30%] md:min-h-[50%] md:w-[33%] lg:w-[50%] lg:h-[50%] mx-auto my-auto order-3 md:order-2 lg:order-2 justify-center ">
         <div class="flex flex-col max-w-[622px] w-full mx-auto z-10">
             <h1 class=" md:mx-auto font-wixdisplay text-darkblue font-extrabold text-[46px] leading-[103%] md:text-[74px] md:leading-[77px] md:text-center letter-spacing:-0.1em"><span>Make a </span><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">mark.</span></h1>
-            <p class="max-w-[488px] w-full min-h-[40px] md:min-h-[53px] mb-[2%] md:text-center font-lexend font-normal text-[16px] leading-[22px] md:text-[18px] md:leading-[26px] md:mx-auto">You are one step away from finding the perfect domain <br> for your brand.</p>
+            <p class="max-w-[488px] w-full min-h-[40px] md:min-h-[53px] mb-[2%] md:text-center font-lexend font-normal text-[16px] leading-[22px] md:text-[18px] md:leading-[26px] md:mx-auto text-darkblue">You are one step away from finding the perfect domain <br> for your brand.</p>
         </div>
-        <div class="flex flex-col max-w-[712px] w-full h-[103px] md:h-[103px] bg-searchbargray mx-auto rounded-t-[16px] rounded-b-[8px] z-10" id="search-section">
+        <div class="flex flex-col max-w-[712px] w-full h-[103px] md:h-[103px] bg-searchbargray mx-auto rounded-t-[16px] rounded-b-[8px] z-10 text-dar " id="search-section">
             <div class="flex flex-row w-full h-[50%] rounded-b-[8px] rounded-t-[8px]"><div class="flex flex-row w-[75%] bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree pl-[1px] pb-[1px] pt-[1px] rounded-bl-[8px] rounded-tl-[8px]"><input class="w-[85%] rounded-tl-[8px] rounded-bl-[8px]" type="text" name="mesearch" id="mesearch"><div class="flex w-[15%] h-[100%] text-center items-center justify-center font-sloth text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px] bg-searchbargray">.ME</div></div> <button class="flex w-[25%] rounded-tr-[8px] rounded-br-[8px] bg-borderpink text-white items-center justify-center font-bold text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px]">Search</button></div>
             <div class="flex flex-row w-full h-[50%] font-lexend font-regular text-[14px] leading-[16px] gap-[15px] my-auto ml-[15px]"><p class="flex gap-[4px] items-center"><i class="fa-solid fa-magnifying-glass w-[18px] h-[18px]"></i>AI Search</p><p class="flex flex-row gap-[4px] items-center"><img class="w-[18px] h-[18px]" src="prvi projekat/ikonica-kutije.png" alt="">Bulk Search</p></div>
         </div> 
@@ -96,12 +98,36 @@
             
             </div>
         </div>
+        -->
+        <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[29%]  rounded-br-[30px] ml-[-7%] order-1" id="girl-photo">
+            <img class="absolute w-full h-full xs:w-auto xs:h-auto md:w-full md:h-full lg:max-w-[600px] lg:max-h-[517px] oft:w-auto oft:h-auto object-cover z-10 md:ml-[20%] lg:ml-[23%] md:mt-[97px] mt-[40%] rounded-br-[30px]" src="prvi projekat/slika-cure.png" alt="slika cure">
+            <div class="absolute bg-[url('./prvi%20projekat/gradient-2.jpeg')] w-full h-[90%] bg-cover bg-center z-0 rounded-br-[30px] rounded-tr-[30px] md:mt-[127px] mt-[50%]">
+            </div>
+        </div>
+
+        <div class="flex flex-col w-[90%] min-h-[50%] sm:min-h-[30%] md:min-h-[50%] md:w-[33%] lg:w-[42%] lg:h-[50%] mx-auto my-auto order-3 md:order-2 lg:order-2 justify-center ">
+        <div class="flex flex-col max-w-[622px] w-full mx-auto z-10">
+            <h1 class=" md:mx-auto font-wixdisplay text-darkblue font-extrabold text-[46px] leading-[103%] md:text-[74px] md:leading-[77px] md:text-center letter-spacing:-0.1em"><span>Make a </span><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">mark.</span></h1>
+            <p class="max-w-[488px] w-full min-h-[40px] md:min-h-[53px] mb-[2%] md:text-center font-lexend font-normal text-[16px] leading-[22px] md:text-[18px] md:leading-[26px] md:mx-auto text-darkblue">You are one step away from finding the perfect domain name for your brand.</p>
+        </div>
+        <div class="flex flex-col max-w-[712px] w-full h-[103px] md:h-[103px] bg-searchbargray mx-auto rounded-t-[16px] rounded-b-[8px] z-10 text-dar " id="search-section">
+            <div class="flex flex-row w-full h-[50%] rounded-b-[8px] rounded-t-[8px]"><div class="flex flex-row w-[75%] bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree pl-[1px] pb-[1px] pt-[1px] rounded-bl-[8px] rounded-tl-[8px]"><input class="w-[85%] rounded-tl-[8px] rounded-bl-[8px]" type="text" name="mesearch" id="mesearch"><div class="flex w-[15%] h-[100%] text-center items-center justify-center font-sloth text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px] bg-searchbargray">.ME</div></div> <button class="flex w-[25%] rounded-tr-[8px] rounded-br-[8px] bg-borderpink text-white items-center justify-center font-bold text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px]">Search</button></div>
+            <div class="flex flex-row w-full h-[50%] font-lexend font-regular text-[14px] leading-[16px] gap-[15px] my-auto ml-[15px]"><p class="flex gap-[4px] items-center"><i class="fa-solid fa-magnifying-glass w-[18px] h-[18px]"></i>AI Search</p><p class="flex flex-row gap-[4px] items-center"><img class="w-[18px] h-[18px]" src="prvi projekat/ikonica-kutije.png" alt="">Bulk Search</p></div>
+        </div> 
+        </div>
+
+        <div class="relative overflow-hidden w-[50%] h-[50%] sm:h-[70%] md:w-[33%] lg:w-[29%]  rounded-bl-[30px] mr-[-7%] order-2 lg:order-3" id="boy-photo">
+            <img class="absolute w-full h-full md:ml-[-7%] object-cover z-10 rounded-bl-[30px] scale-x-[-1] mt-[20px]" src="prvi projekat/slika-momka.png" alt="slika momka">
+            <div class="absolute w-full h-[60%] bg-[url('./prvi%20projekat/gradient-1.jpeg')] bg-cover bg-center z-0 rounded-bl-[30px] rounded-tl-[30px] md:h-full md:mt-[127px] mt-[50%] overflow-hidden">
+            
+            </div>
+        </div>
         </div>
      
         <div class="flex flex-col w-[90%] h-[844px] mx-auto items-center justify-center" id="me-is-for-block"> 
-            <div class="flex flex-row w-full justify-start"><h2 class="w-full h-[68px] font-wixdisplay font-extrabold text-[62px] leading-[68px] letter-spacing:-1em "><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">.ME </span><span>is for...</span></h2></div>
+            <div class="flex flex-row w-full justify-start items-center mb-[15px] md:mb-[29px]"><h2 class="w-full md:h-[68px] font-wixdisplay font-extrabold text-[36px] leading-[39px] md:text-[62px] md:leading-[68px] letter-spacing:-1em "><span class="bg-gradient-to-r from-gradthemeone via-gradthemetwo to-gradthemethree bg-clip-text text-transparent">.ME </span><span>is for...</span></h2></div>
             <div class="flex flex-col justify-between w-full h-[589.02px] mx-auto swiper mySwiper" id="rows-wrap">
-            <div class="flex flex-row justify-between w-full h-[589px] gap-[46.56px] swiper-wrapper" id="first-row">
+            <div class="flex flex-row w-full h-[589px] gap-[47px] swiper-wrapper" id="first-row">
                 <div class="flex flex-col justify-between swiper-slide w-auto">
                 <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[17px] ml-[17px]">Startups</h6> <i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i> <img class="max-w-[400px] max-h-[400px] w-auto h-auto object-cover ml-[-5px] mt-[20px]" src="./prvi projekat/slika-1.png" alt=""></div>
                 <div class="w-[273.26px] h-[273.26px] overflow-hidden bg-[url('./prvi%20projekat/gradient-2.jpeg')] bg-cover bg-center rounded-[16.19px]"><h6 class="absolute font-wix font-bold text-[24px] mt-[18px] ml-[17px]">Designers</h6><i class="absolute text-[26.29px] mt-[230px] ml-[20.52px] fa-solid fa-arrow-right"></i><img class="max-w-[400px] max-h-[400px] w-auto h-auto object-cover ml-[30px] mt-[-18px] rotate-[11.35deg]" src="./prvi projekat/slika-5.png" alt=""></div>
